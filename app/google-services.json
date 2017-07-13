@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "150114659445",
+    "firebase_url": "https://jobmatch-3d3b5.firebaseio.com",
+    "project_id": "jobmatch-3d3b5",
+    "storage_bucket": "jobmatch-3d3b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150114659445:android:6a17d961c8938804",
+        "android_client_info": {
+          "package_name": "fonket.jobmatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150114659445-1q6o3fmmuiqs1if2sj077ivdhhgls066.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fonket.jobmatch",
+            "certificate_hash": "60be56260bb6809430c19a986b44944ad09ee1c0"
+          }
+        },
+        {
+          "client_id": "150114659445-3c1j3jb8t3c59oes57u033u0emuhlb7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA32CF2fhAUMUDoKL9po-0Khu35M-tLjOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150114659445-3c1j3jb8t3c59oes57u033u0emuhlb7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

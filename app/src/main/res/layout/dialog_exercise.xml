@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/exerciseEt"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:background="@drawable/bg_telon"
+        android:backgroundTint="@android:color/white"
+        android:hint="Escriba su ejercicio"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/timeEt"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_telon"
+        android:backgroundTint="@android:color/white"
+        android:hint="Tiempo de ejercicio"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17dp" />
+
+    <ImageButton
+        android:id="@+id/saveBtn"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="30dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_rowing_black_48dp"
+        android:theme="@style/AccentButton" />
+
+</LinearLayout>
